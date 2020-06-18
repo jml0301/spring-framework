@@ -11,6 +11,9 @@ public class Application {
 		// asd
 
 		// apoplciations
+		// asdasd
+		// asdasd
+		// asdasd
 
 		AnnotationConfigApplicationContext ann = new AnnotationConfigApplicationContext(AppConfig.class);
 		IndexService indexService = (IndexService) ann.getBean("indexService");
