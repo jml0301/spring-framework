@@ -6,15 +6,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Application {
 	public static void main(String[] args) {
-
-
-		// asd
-
-		// apoplciations
-		// asdasd
-		// asdasd
-		// asdasd
-
 		AnnotationConfigApplicationContext ann = new AnnotationConfigApplicationContext(AppConfig.class);
 		IndexService indexService = (IndexService) ann.getBean("indexService");
 		indexService.query();
