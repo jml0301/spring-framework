@@ -11,7 +11,10 @@ public class Application {
 		// asd
 
 		// apoplciations
-
+		// spring-custom/src/main/java/com/jml/Application.javazzzzzzz
+		//  1 file changed, 4 insertions(+)
+		// asdasd
+		/// asdasdasd
 		AnnotationConfigApplicationContext ann = new AnnotationConfigApplicationContext(AppConfig.class);
 		IndexService indexService = (IndexService) ann.getBean("indexService");
 		indexService.query();
